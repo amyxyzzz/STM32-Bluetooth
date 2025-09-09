@@ -185,6 +185,7 @@
 	(net 50 "unconnected-(U2-PB6-Pad46)")
 	(net 51 "unconnected-(U2-PA4-Pad13)")
 	(net 52 "unconnected-(U3-NC-Pad4)")
+	(net 53 "unconnected-(J2-~{RESET}-Pad3)")
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "0bb20aed-b4f8-4bf4-b215-c792ad64b1cc")
@@ -1390,6 +1391,244 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_0402_1005Metric"
+		(layer "F.Cu")
+		(uuid "27e6c155-906e-4d8f-8558-2796345512b8")
+		(at 139.5 110.5)
+		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "capacitor")
+		(property "Reference" "C20"
+			(at 0 -1.16 0)
+			(layer "F.SilkS")
+			(uuid "60ac4663-9aba-4a87-893e-d43670c27ccf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0p8"
+			(at 0 1.16 0)
+			(layer "F.Fab")
+			(uuid "4afa0a9c-6be8-40d0-9955-cc88a4c04d00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8be8228-bae3-4beb-829d-aaa9b3f92d70")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c5455ce-cf55-49cb-8501-189585e8ae5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "852b43d3-84a1-4606-a0cd-1fe5835809d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03865ef2-b81a-464c-8ccc-d704a98dff9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4652a84c-197e-45c5-8445-8ed858e195a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/05c4753a-51d3-49b1-a6c8-4e252090ed72")
+		(sheetname "/")
+		(sheetfile "STM32-Bluetooth.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5d0d3d4e-3aaa-465c-9895-30de6f59f005")
+		)
+		(fp_line
+			(start -0.107836 0.36)
+			(end 0.107836 0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4ed76c5a-781e-4939-b1f0-eb05e9b79fa1")
+		)
+		(fp_line
+			(start -0.91 -0.46)
+			(end 0.91 -0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e0bb723d-fa3a-4f89-a13c-6ac3a3c635ec")
+		)
+		(fp_line
+			(start -0.91 0.46)
+			(end -0.91 -0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5b909e11-b239-424e-8dc8-53b3832b2e58")
+		)
+		(fp_line
+			(start 0.91 -0.46)
+			(end 0.91 0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "389e0ee2-d18e-42fd-a821-c978c6d1e2e7")
+		)
+		(fp_line
+			(start 0.91 0.46)
+			(end -0.91 0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bfcc953a-1776-4951-93fa-77ed6f3f6a5a")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9116904c-41d5-412e-a284-8f54f6a38b63")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ce90e8eb-cf27-447a-8da7-d0a08f445acb")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f2b7ef8c-42ab-4e46-be7c-50c5b0116816")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4e8aaf87-e7a2-463d-91f4-d944a6166f38")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e9a7ed9e-a57f-4410-a46f-6d706785b97f")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.48 0)
+			(size 0.56 0.62)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 7 "Net-(U2-RF1)")
+			(pintype "passive")
+			(uuid "bf086825-2845-4c3f-aa0e-463755f66b4b")
+		)
+		(pad "2" smd roundrect
+			(at 0.48 0)
+			(size 0.56 0.62)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 1 "+3V3")
+			(pintype "passive")
+			(uuid "eb181f3d-db1d-4b48-953c-d1edb0d5ddc8")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3086,7 +3325,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/85f29caf-647f-46fa-a062-33673d100395")
 		(sheetname "/")
 		(sheetfile "STM32-Bluetooth.kicad_sch")
 		(attr smd)
@@ -8621,7 +8859,7 @@
 			(at 0 0.635 270)
 			(size 0.7874 0.7874)
 			(layers "F.Cu" "F.Mask")
-			(net 5 "/SWD_NRST")
+			(net 53 "unconnected-(J2-~{RESET}-Pad3)")
 			(pinfunction "~{RESET}")
 			(pintype "open_collector")
 			(uuid "644c966c-f0ab-422f-9dd3-98498cd837a5")

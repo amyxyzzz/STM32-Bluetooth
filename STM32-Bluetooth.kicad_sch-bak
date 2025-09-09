@@ -5042,10 +5042,10 @@
 		(uuid "10ad8d9c-1e2e-4660-84b3-51dcd177607e")
 	)
 	(junction
-		(at 99.06 113.03)
+		(at 223.52 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "142874ab-29ab-49c3-b8af-e4d15d7c2f14")
+		(uuid "156c1b66-43c3-43e5-ac2b-93ea2f606f35")
 	)
 	(junction
 		(at 104.14 59.69)
@@ -5058,12 +5058,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "195e58af-98b7-467d-ad98-bd4fe0a79805")
-	)
-	(junction
-		(at 207.01 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1985b6b8-6136-4c7b-a24f-deab72cf3a7b")
 	)
 	(junction
 		(at 104.14 52.07)
@@ -5156,22 +5150,28 @@
 		(uuid "56e666fe-6a1e-4dd2-88c0-72bf22d0ba29")
 	)
 	(junction
-		(at 223.52 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ada68c2-529f-4711-b854-2c8bc96edc28")
-	)
-	(junction
 		(at 223.52 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d98c29f-32b6-4c5e-a8a7-891ab6e56eaf")
 	)
 	(junction
+		(at 204.47 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6055f05f-b581-4ea6-a3a1-c2dbe6bb5671")
+	)
+	(junction
 		(at 200.66 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69fe06fa-435a-4945-bff7-7e88c9f7935f")
+	)
+	(junction
+		(at 208.28 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a9ca522-85ea-4de8-8a05-15027e8fcf5d")
 	)
 	(junction
 		(at 114.3 38.1)
@@ -5228,16 +5228,16 @@
 		(uuid "9fbf819c-7ab9-4613-b572-deabc134956a")
 	)
 	(junction
-		(at 114.3 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2b3e1ec-ce5a-4855-a5f9-b5977336a4e1")
-	)
-	(junction
 		(at 59.69 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3a346a0-0569-4745-ba36-de0ee966a94f")
+	)
+	(junction
+		(at 114.3 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaa37a6a-907f-4d35-b0fd-9c707383ad1e")
 	)
 	(junction
 		(at 71.12 52.07)
@@ -5258,6 +5258,18 @@
 		(uuid "b7b67360-f00c-4cdd-b9cc-d71c42ee8825")
 	)
 	(junction
+		(at 223.52 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b93b3185-7aab-41a3-9da3-3b1c17bd536d")
+	)
+	(junction
+		(at 223.52 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baac694f-a648-43d7-9890-b93031e266b4")
+	)
+	(junction
 		(at 53.34 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5274,12 +5286,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d293bb5e-29bd-430d-9af7-ad680bcf3aa7")
-	)
-	(junction
-		(at 223.52 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4e5a16a-2cbe-420f-ad6c-4b063f138d34")
 	)
 	(junction
 		(at 125.73 38.1)
@@ -5310,6 +5316,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1377b31-48ad-48b1-bf4d-949f6ed76005")
+	)
+	(junction
+		(at 208.28 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e57b32ac-e1e6-4209-bddb-c24e3e850665")
 	)
 	(junction
 		(at 53.34 95.25)
@@ -5421,7 +5433,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 113.03) (xy 99.06 113.03)
+			(xy 96.52 113.03) (xy 109.22 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5451,6 +5463,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 105.41) (xy 208.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02de8b59-fb29-4004-9a6c-14cd05324e21")
+	)
+	(wire
+		(pts
 			(xy 196.85 135.89) (xy 196.85 134.62)
 		)
 		(stroke
@@ -5468,6 +5490,16 @@
 			(type default)
 		)
 		(uuid "02fc3aa1-778f-4383-ac84-054e108016ac")
+	)
+	(wire
+		(pts
+			(xy 208.28 99.06) (xy 212.09 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047cac8a-09a8-4f2d-aed5-f7ad9847a9bd")
 	)
 	(wire
 		(pts
@@ -5568,6 +5600,26 @@
 			(type default)
 		)
 		(uuid "0f21038c-28cb-47bc-98bd-8b4a063ca4bc")
+	)
+	(wire
+		(pts
+			(xy 219.71 99.06) (xy 223.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8ddacf-1fdd-4ffc-81f7-6eaaeaddfca2")
+	)
+	(wire
+		(pts
+			(xy 204.47 88.9) (xy 204.47 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a8fcc3-a592-4d8f-88f0-a1453013e6f3")
 	)
 	(wire
 		(pts
@@ -5821,23 +5873,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 99.06) (xy 223.52 99.06)
+			(xy 223.52 99.06) (xy 231.14 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3447efbb-0307-45e8-b70b-51c6522b3972")
-	)
-	(wire
-		(pts
-			(xy 207.01 99.06) (xy 212.09 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36346222-9d8c-464e-bc9b-df8798703f49")
 	)
 	(wire
 		(pts
@@ -5918,16 +5960,6 @@
 			(type default)
 		)
 		(uuid "41c432ae-cabf-47d2-a35e-0da7469bf468")
-	)
-	(wire
-		(pts
-			(xy 204.47 82.55) (xy 204.47 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "425c9cbd-7af8-4ac3-ae1a-70006ee5cdf1")
 	)
 	(wire
 		(pts
@@ -6101,16 +6133,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 99.06) (xy 231.14 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a18ea0a-b565-41f5-acc7-983e0c4f9aff")
-	)
-	(wire
-		(pts
 			(xy 69.85 77.47) (xy 69.85 67.31)
 		)
 		(stroke
@@ -6138,16 +6160,6 @@
 			(type default)
 		)
 		(uuid "5c9e4a7f-f69e-439c-b8c9-346cddf28656")
-	)
-	(wire
-		(pts
-			(xy 223.52 127) (xy 223.52 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ebd0220-baaf-418e-a30b-540af245c73a")
 	)
 	(wire
 		(pts
@@ -6301,26 +6313,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 113.03) (xy 99.06 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7635bb55-4b2c-4acb-b016-b45300e151be")
-	)
-	(wire
-		(pts
-			(xy 189.23 99.06) (xy 207.01 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "773fcfa7-4499-4ef9-9896-f88d387d8b58")
-	)
-	(wire
-		(pts
 			(xy 182.88 127) (xy 182.88 121.92)
 		)
 		(stroke
@@ -6371,16 +6363,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 91.44) (xy 204.47 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80d4c412-a39f-4061-86b8-1c051d2e7777")
-	)
-	(wire
-		(pts
 			(xy 200.66 82.55) (xy 204.47 82.55)
 		)
 		(stroke
@@ -6388,16 +6370,6 @@
 			(type default)
 		)
 		(uuid "813fe18d-dff0-434d-b799-92ab566efd0a")
-	)
-	(wire
-		(pts
-			(xy 99.06 113.03) (xy 109.22 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84a881ab-6dd6-4ae9-9718-37940f76751a")
 	)
 	(wire
 		(pts
@@ -6438,16 +6410,6 @@
 			(type default)
 		)
 		(uuid "87482b1b-011a-47ac-8b3b-e6e2d53c8625")
-	)
-	(wire
-		(pts
-			(xy 114.3 45.72) (xy 114.3 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87583f98-29b8-4633-bde0-5d6f6a6669bf")
 	)
 	(wire
 		(pts
@@ -6691,6 +6653,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 127) (xy 30.48 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a84b31cf-5d6d-408c-9c40-642b08a7f36d")
+	)
+	(wire
+		(pts
 			(xy 149.86 38.1) (xy 149.86 69.85)
 		)
 		(stroke
@@ -6708,6 +6680,16 @@
 			(type default)
 		)
 		(uuid "a979cf54-8510-4d73-9940-38064427eab5")
+	)
+	(wire
+		(pts
+			(xy 223.52 104.14) (xy 223.52 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af08ef06-6e58-4f50-ab03-a817321ab9eb")
 	)
 	(wire
 		(pts
@@ -6881,6 +6863,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 99.06) (xy 208.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84446ef-318d-493d-9614-278559b2e8d2")
+	)
+	(wire
+		(pts
 			(xy 238.76 106.68) (xy 242.57 106.68)
 		)
 		(stroke
@@ -7031,7 +7023,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 152.4) (xy 147.32 156.21)
+			(xy 147.32 152.4) (xy 147.32 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7088,16 +7080,6 @@
 			(type default)
 		)
 		(uuid "e76f090e-c339-4703-8c89-003ee85b5575")
-	)
-	(wire
-		(pts
-			(xy 104.14 119.38) (xy 104.14 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e82dce34-ce0b-45f1-b674-0199f2b5aa31")
 	)
 	(wire
 		(pts
@@ -7161,16 +7143,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 121.92) (xy 30.48 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f32035ec-b459-49f8-af72-a6a2af4f3687")
-	)
-	(wire
-		(pts
 			(xy 189.23 113.03) (xy 208.28 113.03)
 		)
 		(stroke
@@ -7188,6 +7160,16 @@
 			(type default)
 		)
 		(uuid "f400da7b-a0fd-409a-acf6-0e0b9aa1d618")
+	)
+	(wire
+		(pts
+			(xy 204.47 90.17) (xy 204.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f495a26d-c1ad-4c26-89ff-5b21e1449a57")
 	)
 	(wire
 		(pts
@@ -7300,7 +7282,7 @@
 		(uuid "52019511-1cb8-486f-823c-8273ed58576c")
 	)
 	(label "SWD_NRST"
-		(at 104.14 119.38 0)
+		(at 99.06 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7538,99 +7520,6 @@
 			(project "BluehpilDemo.kicad"
 				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 207.01 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05c4753a-51d3-49b1-a6c8-4e252090ed72")
-		(property "Reference" "C20"
-			(at 210.312 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0p8"
-			(at 210.312 104.902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 207.9752 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 207.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" ""
-			(at 207.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 207.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 207.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fce18288-cb06-4a47-9d08-6039a9995ab7")
-		)
-		(pin "2"
-			(uuid "7205d0b1-314d-456e-b77c-c1cea0acf14c")
-		)
-		(instances
-			(project "STM32-Bluetooth"
-				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
-					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -8209,6 +8098,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 114.3 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "199cf532-521d-4957-9582-f04bae809f63")
+		(property "Reference" "#PWR014"
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f75b7eaa-8193-43e8-a059-f56fee6b734a")
+		)
+		(instances
+			(project "BluehpilDemo.kicad"
+				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 55.88 31.75 0)
 		(unit 1)
@@ -8587,6 +8543,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 30.48 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2347e8fc-b5d7-402c-aa25-0ac6bfeead5f")
+		(property "Reference" "#PWR01"
+			(at 30.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b30ada1-b23b-4d54-a0a7-831500173b14")
+		)
+		(instances
+			(project "BluehpilDemo.kicad"
+				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030")
 		(at 88.9 123.19 0)
 		(unit 1)
@@ -8946,6 +8969,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 223.52 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2eaf7e5a-cac7-4a25-a8a3-e5954b3075ed")
+		(property "Reference" "#PWR023"
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39a0f4c7-c677-4886-8488-8f157a7b83c5")
+		)
+		(instances
+			(project "BluehpilDemo.kicad"
+				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 215.9 99.06 90)
 		(unit 1)
@@ -9098,73 +9188,6 @@
 			(project "BluehpilDemo.kicad"
 				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 223.52 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "349a4abe-9947-4f32-b7ec-12a0930ec618")
-		(property "Reference" "#PWR023"
-			(at 223.52 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 223.52 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4009c018-b27b-44f9-bddc-240070c0d85e")
-		)
-		(instances
-			(project ""
-				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9895,73 +9918,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 147.32 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d0e3470-d131-4403-996e-9c3a705ec10f")
-		(property "Reference" "#PWR020"
-			(at 147.32 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce10c059-eb1e-4f1c-a824-8ec813a13311")
-		)
-		(instances
-			(project "STM32-Bluetooth"
-				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 90.17 31.75 0)
 		(unit 1)
@@ -10349,140 +10305,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 204.47 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "665e7cf4-9884-4969-a8c1-179815000efb")
-		(property "Reference" "#PWR014"
-			(at 204.47 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e2262f9-659b-4e32-bff9-89e2ec30863d")
-		)
-		(instances
-			(project "STM32-Bluetooth"
-				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 223.52 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c9cb959-b58f-4ac3-ad6e-aafca0895b67")
-		(property "Reference" "#PWR022"
-			(at 223.52 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 223.52 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "582e4a54-1aa0-48cb-9d53-10ceff036fa8")
-		)
-		(instances
-			(project "STM32-Bluetooth"
-				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 111.76 82.55 90)
 		(unit 1)
@@ -10762,6 +10584,73 @@
 			(project ""
 				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "776e1952-60e6-48ec-8930-26f6c0a29615")
+		(property "Reference" "#PWR022"
+			(at 223.52 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3702bb0f-7cde-4718-8f82-f76afd299c55")
+		)
+		(instances
+			(project "STM32-Bluetooth"
+				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11072,6 +10961,166 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 147.32 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "831ed86a-4079-4fac-8c89-c9264a590abe")
+		(property "Reference" "#PWR015"
+			(at 147.32 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "979a0b37-45be-4fa8-a7f4-97e3c565e0b5")
+		)
+		(instances
+			(project ""
+				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85f29caf-647f-46fa-a062-33673d100395")
+		(property "Reference" "C17"
+			(at 211.582 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0p8"
+			(at 211.582 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 209.2452 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
+			(at 208.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 208.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 208.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e157ff0-cf17-4789-bf82-ebc2c88eacfd")
+		)
+		(pin "2"
+			(uuid "96afc9b3-5287-459e-9590-a753ce510751")
+		)
+		(instances
+			(project ""
+				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 48.26 116.84 0)
 		(unit 1)
@@ -11250,73 +11299,6 @@
 			(project "BluehpilDemo.kicad"
 				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 207.01 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d55d2d9-de54-42be-97cd-cfc334751b36")
-		(property "Reference" "#PWR021"
-			(at 207.01 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "035b9ac0-9277-47d6-ad37-a148b8b26038")
-		)
-		(instances
-			(project "STM32-Bluetooth"
-				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11684,6 +11666,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 204.47 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1ae9a53-e897-4f15-a968-f4840992e98e")
+		(property "Reference" "#PWR021"
+			(at 204.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15ce141d-f891-4cea-b260-65368e8e584d")
+		)
+		(instances
+			(project "STM32-Bluetooth"
+				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 223.52 102.87 0)
 		(unit 1)
@@ -11768,7 +11817,7 @@
 			(uuid "e500caeb-6cb9-47f7-a40c-401459f6c7a3")
 		)
 		(instances
-			(project "STM32-Bluetooth"
+			(project "BluehpilDemo.kicad"
 				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
 					(reference "C18")
 					(unit 1)
@@ -12139,7 +12188,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.47 87.63 0)
+		(at 204.47 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12148,7 +12197,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc042e34-ce5d-4751-9d81-bcb956af4d9a")
 		(property "Reference" "C16"
-			(at 208.28 86.3599 0)
+			(at 208.28 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12157,7 +12206,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 208.28 88.8999 0)
+			(at 208.28 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12166,7 +12215,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 205.4352 91.44 0)
+			(at 205.4352 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12175,7 +12224,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 87.63 0)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12184,7 +12233,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 204.47 87.63 0)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12193,7 +12242,7 @@
 			)
 		)
 		(property "Distributor Link" ""
-			(at 204.47 87.63 0)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12201,7 +12250,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 204.47 87.63 0)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12209,7 +12258,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 204.47 87.63 0)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12223,7 +12272,7 @@
 			(uuid "eb4db117-8079-40b8-8c49-52f32940977c")
 		)
 		(instances
-			(project "STM32-Bluetooth"
+			(project "BluehpilDemo.kicad"
 				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
 					(reference "C16")
 					(unit 1)
@@ -12742,73 +12791,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 30.48 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e15d19b4-ec94-49cd-986f-57fe97c4518d")
-		(property "Reference" "#PWR01"
-			(at 30.48 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9b980d8-f22a-44de-9b34-44cd157092da")
-		)
-		(instances
-			(project ""
-				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 63.5 76.2 0)
 		(unit 1)
@@ -12869,73 +12851,6 @@
 			(project ""
 				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea9ca847-57eb-4889-90c3-3447a60c329e")
-		(property "Reference" "#PWR015"
-			(at 114.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb451ad9-7807-48f1-9b81-caa667b54d73")
-		)
-		(instances
-			(project ""
-				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -13027,6 +12942,73 @@
 			(project ""
 				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee5755e5-011a-4209-a234-fd81765b3cda")
+		(property "Reference" "#PWR028"
+			(at 208.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee0d3b66-29ef-4810-9e5e-e5d1169d4580")
+		)
+		(instances
+			(project "STM32-Bluetooth"
+				(path "/cb34f3f6-1938-4447-9f65-de347160f2c4"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
